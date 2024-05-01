@@ -21,7 +21,7 @@ print(3//2)
 # output-> 1
 # < assignment operators shorthand, 
 # < Perform math operation and assign variable value simultaneously
-# < +=, -=, *=, /=
+# < +=, -=, *=, /=, //=
 num = 4
 num = num + 1
 print(num)
@@ -46,7 +46,7 @@ print(type(my_bool))
 my_bool = this_variable
 print(my_bool)
 # output-> 10
-# Example of python being dynamically typed
+# Example above of python being dynamically typed
 print(bool(5<2))
 # output-> False
 print(bool(5>2))
@@ -63,7 +63,6 @@ print(5 is not 0)
 # < enclosed in single, double or triple quotes
 a_string = "hello"
 print(a_string)
-
 # output-> hello
 print(type(a_string))
 # output-> <class 'str'>
@@ -96,7 +95,12 @@ print(apostrophe)
 multiple_quotes = "this is 'cameron's' food"
 print(multiple_quotes)
 # output-> this is 'cameron's' food
-multiple_quotes = """this is "cameron's" food"""
+multiple_quotes = """
+this
+is 
+"cameron's" 
+food
+"""
 print(multiple_quotes)
 # # output-> this is "cameron's" food
 
@@ -134,9 +138,9 @@ print(type(str(float_num)))
 # output-> <class 'str'>
 
 # _ String Interpolation (foramtted strings)
-string1 = "Cameron is "
+string1 = "Liam is "
 string2 = " years old"
-age = "35"
+age = "350"
 print(string1)
 # output-> Cameron is 
 print(string1+str(age)+string2)
