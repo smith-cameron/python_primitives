@@ -3,8 +3,6 @@ how a given value/data is classified and stored
 ### [Primitives](https://login.codingdojo.com/m/506/12457/87300)
 [DOCS - Built In Types](https://docs.python.org/3/library/stdtypes.html#typesseq-rNumericTypes)
 ### [Variables](https://login.codingdojo.com/m/506/12457/87698) 
-==use the link above to show variable assignment pic==
-![[Pasted image 20230926123258.png]]
 #### Reserved Python Keywords
 These keywords are used for various purposes in Python, such as 
 - defining control structures (e.g., `if`, `else`, `while`), 
